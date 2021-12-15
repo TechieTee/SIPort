@@ -18,7 +18,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 ;
+
   background-size: cover;
   left: 0;
   right: 0;
@@ -1012,6 +1013,7 @@ section .container {
   text-align: right;
   font-size: 13px;
   color: #fff;
+  visibility: hidden;
   z-index: 999999;
 }
 @media (max-width: 992px) {
